@@ -1,4 +1,7 @@
-import requests,json
+import json
+import threading
+
+import requests
 
 payload = {
     'client_id' : 'bd6262cb04ed423d9ec4a2102f863d40',
@@ -23,16 +26,23 @@ def search_in_wm(name):
     del info['tradingTax']
     return info
 
+def vaild_print(name,ini_name):
+    resul = search_in_wm(name)
+    print('物品名称：'+ ini_name)
+    print("理论售价："+ str(resul['advicePrice']))
+    print("杜卡德金币："+ str(resul['ducats']))
+    print("")
+
 fil = open('D:\\Desk\\Coding\\Py\\Warframe_Relic\\json\\Dic.json','r',encoding='utf-8')
 tab = json.loads(fil.read())
-search_list = ['帕里斯 PRIME 弓弦', '月神 PRIME 枪机', '雷克斯 PRIME 蓝图']
+search_list = ['帕里斯 PRIME 弓弦', '月神 PRIME 枪机', '雷克斯 PRIME 蓝图','XP PRIME 蓝图']
+
 
 for item in search_list:
-    print('物品名称：'+ item)
     if item in tab:
-        resul= search_in_wm(tab[item])
-        print("理论售价："+ str(resul['advicePrice']))
-        print("杜卡德金币："+ str(resul['ducats']))
+        t = threading.Thread(target = vaild_print, args = (tab[item],item,))
+        t.start()
     else:
+        print('物品名称：'+ item)
         print('无结果')
-    print("")
+        print("")
