@@ -9,7 +9,7 @@ import config
 import json,requests
 
 url = 'https://raw.githubusercontent.com/Richasy/WFA_Lexicon/master/WF_Sale.json'
-r = requests.get(url) #获取最新Sales词库
+r = requests.get(url)
 
 dic = {}
 for item in r.json():
@@ -19,5 +19,3 @@ for item in r.json():
 
 with open(config.json_path + '\\Dic.json','w+',encoding='utf-8') as f:
     f.write(json.dumps(dic,ensure_ascii=False,indent=4))
-
-#创建并保存字典

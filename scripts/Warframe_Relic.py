@@ -3,7 +3,7 @@ currentpath = sys.path[0]
 basic_path = currentpath + "\\basic"
 sys.path.append(basic_path)
 
-import region,screenshot,output
+import region,screenshot,output,out_GUI
 from get_sentence import get_sentence
 from ocr import ocr
 
@@ -16,8 +16,11 @@ def main():
     #print(img_location)
     items = ocr(img_location) #物品名称列表
     info = output.get_info(items) #获得价格列表
-    sentence = get_sentence(info) #获得编辑后的价格字符串
-    print(sentence)
+
+    out_GUI.popwindow(info)
+
+    #sentence = get_sentence(info) #获得编辑后的价格字符串
+    #print(sentence)
     #settext(sentence)
 
 if __name__ == '__main__':
