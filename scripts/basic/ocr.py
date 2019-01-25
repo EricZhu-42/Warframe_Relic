@@ -5,7 +5,7 @@ APP_ID = YOUR APP_ID
 API_KEY = YOUR API_KEY
 SECRET_KEY = YOUR SECRET_KET
 
-client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
+client = AipOcr(APP_ID, API_KEY, SECRET_KEY) #创建OCR实例
 
 def get_image(filePath):
     with open(filePath, 'rb') as fp:
@@ -18,7 +18,7 @@ def ocr(img_location):
     for k in response['words_result']:
         texts.append(k.get('words'))
         """ To modify the texts in due form """
-    def edit(text):
+    def edit(text): #进行格式修改
         text = text.replace(' ','')
         if 'prme' in text.lower():
             idx = text.lower().index('prme')

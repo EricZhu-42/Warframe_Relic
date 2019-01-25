@@ -5,7 +5,7 @@ fil = open(config.json_path +'\\Dic.json', 'r', encoding='utf-8')
 tab = json.loads(fil.read())
 info = []
 
-def vaild_print(name,query):
+def vaild_print(name,query): #有效情况下
     #print(name + 'Begin')
     global info
     new_dict = search.search_in_wm(query)
@@ -16,7 +16,7 @@ def vaild_print(name,query):
     info.append(new_dict)
     #print(name + 'Ready')
 
-def invalid_print(name):
+def invalid_print(name): #无效情况下
     #print(name + 'Begin')
     global info
     new_dict = {}
@@ -29,7 +29,7 @@ def invalid_print(name):
     
     
 def get_info(search_list):
-    threadlist = []
+    threadlist = [] #线程列表
     for item in search_list:
         if item in tab:
             t = threading.Thread(target = vaild_print, args = (item,tab[item],))
@@ -40,5 +40,5 @@ def get_info(search_list):
         t.start()
     for t in threadlist:
         t.join()
-    return info
+    return info #返回价格信息列表
 
