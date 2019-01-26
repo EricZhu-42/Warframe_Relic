@@ -32,6 +32,7 @@ def get_info(search_list):
         t.join()
     return info #返回价格信息列表
 '''
+
 def get_info(search_list):
     for item in search_list:
         if item in tab:
@@ -41,5 +42,18 @@ def get_info(search_list):
             info.append(item_info)
         else:
             invalid_print(item)
+
+    def make_recommend(info):
+        max_price = 0
+        for item_info in info:
+            if int(item_info['advicePrice']) > max_price:
+                max_price = int(item_info['advicePrice'])
+        for item_info in info:
+            if int(item_info['advicePrice']) == max_price:
+                item_info['recommend'] = True
+            else:
+                item_info['recommend'] = False
+
+    make_recommend(info)
     return info #返回价格信息列表
     
