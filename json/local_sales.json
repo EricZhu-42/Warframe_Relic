@@ -1,0 +1,1078 @@
+{
+    "ASH PRIME 头部神经光元": {
+        "ducats": "45",
+        "advicePrice": "12"
+    },
+    "ASH PRIME 系统": {
+        "ducats": "65",
+        "advicePrice": "92"
+    },
+    "ASH PRIME 机体": {
+        "ducats": "15",
+        "advicePrice": "11"
+    },
+    "ASH PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "22"
+    },
+    "BANSHEE PRIME 头部神经光元": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "BANSHEE PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "37"
+    },
+    "BANSHEE PRIME 机体": {
+        "ducats": "100",
+        "advicePrice": "25"
+    },
+    "BANSHEE PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "9"
+    },
+    "EMBER PRIME 头部神经光元": {
+        "ducats": "15",
+        "advicePrice": "25"
+    },
+    "EMBER PRIME 系统": {
+        "ducats": "45",
+        "advicePrice": "31"
+    },
+    "EMBER PRIME 机体": {
+        "ducats": "15",
+        "advicePrice": "41"
+    },
+    "EMBER PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "90"
+    },
+    "FROST PRIME 头部神经光元": {
+        "ducats": "15",
+        "advicePrice": "18"
+    },
+    "FROST PRIME 系统": {
+        "ducats": "45",
+        "advicePrice": "39"
+    },
+    "FROST PRIME 机体": {
+        "ducats": "15",
+        "advicePrice": "37"
+    },
+    "FROST PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "98"
+    },
+    "HYDROID PRIME 头部神经光元": {
+        "ducats": "45",
+        "advicePrice": "8"
+    },
+    "HYDROID PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "45"
+    },
+    "HYDROID PRIME 机体": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "HYDROID PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "7"
+    },
+    "LOKI PRIME 头部神经光元": {
+        "ducats": "15",
+        "advicePrice": "23"
+    },
+    "LOKI PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "182"
+    },
+    "LOKI PRIME 机体": {
+        "ducats": "45",
+        "advicePrice": "90"
+    },
+    "LOKI PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "16"
+    },
+    "MAG PRIME 头部神经光元": {
+        "ducats": "15",
+        "advicePrice": "11"
+    },
+    "MAG PRIME 系统": {
+        "ducats": "15",
+        "advicePrice": "15"
+    },
+    "MAG PRIME 机体": {
+        "ducats": "45",
+        "advicePrice": "12"
+    },
+    "MAG PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "54"
+    },
+    "MIRAGE PRIME 头部神经光元": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "MIRAGE PRIME 系统": {
+        "ducats": "45",
+        "advicePrice": "9"
+    },
+    "MIRAGE PRIME 机体": {
+        "ducats": "15",
+        "advicePrice": "8"
+    },
+    "MIRAGE PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "19"
+    },
+    "NEKROS PRIME 头部神经光元": {
+        "ducats": "45",
+        "advicePrice": "38"
+    },
+    "NEKROS PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "69"
+    },
+    "NEKROS PRIME 机体": {
+        "ducats": "15",
+        "advicePrice": "10"
+    },
+    "NEKROS PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "68"
+    },
+    "NOVA PRIME 头部神经光元": {
+        "ducats": "15",
+        "advicePrice": "12"
+    },
+    "NOVA PRIME 系统": {
+        "ducats": "15",
+        "advicePrice": "15"
+    },
+    "NOVA PRIME 机体": {
+        "ducats": "100",
+        "advicePrice": "63"
+    },
+    "NOVA PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "19"
+    },
+    "OBERON PRIME 头部神经光元": {
+        "ducats": "100",
+        "advicePrice": "14"
+    },
+    "OBERON PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "41"
+    },
+    "OBERON PRIME 机体": {
+        "ducats": "15",
+        "advicePrice": "7"
+    },
+    "OBERON PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "NYX PRIME 头部神经光元": {
+        "ducats": "100",
+        "advicePrice": "75"
+    },
+    "NYX PRIME 系统": {
+        "ducats": "45",
+        "advicePrice": "40"
+    },
+    "NYX PRIME 机体": {
+        "ducats": "65",
+        "advicePrice": "20"
+    },
+    "NYX PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "10"
+    },
+    "RHINO PRIME 头部神经光元": {
+        "ducats": "45",
+        "advicePrice": "39"
+    },
+    "RHINO PRIME 系统": {
+        "ducats": "15",
+        "advicePrice": "68"
+    },
+    "RHINO PRIME 机体": {
+        "ducats": "65",
+        "advicePrice": "61"
+    },
+    "RHINO PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "131"
+    },
+    "SARYN PRIME 头部神经光元": {
+        "ducats": "45",
+        "advicePrice": "27"
+    },
+    "SARYN PRIME 系统": {
+        "ducats": "15",
+        "advicePrice": "11"
+    },
+    "SARYN PRIME 机体": {
+        "ducats": "100",
+        "advicePrice": "119"
+    },
+    "SARYN PRIME 蓝图": {
+        "ducats": "65",
+        "advicePrice": "77"
+    },
+    "TRINITY PRIME 头部神经光元": {
+        "ducats": "25",
+        "advicePrice": "24"
+    },
+    "TRINITY PRIME 系统": {
+        "ducats": "15",
+        "advicePrice": "14"
+    },
+    "TRINITY PRIME 机体": {
+        "ducats": "45",
+        "advicePrice": "13"
+    },
+    "TRINITY PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "20"
+    },
+    "VALKYR PRIME 头部神经光元": {
+        "ducats": "45",
+        "advicePrice": "10"
+    },
+    "VALKYR PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "40"
+    },
+    "VALKYR PRIME 机体": {
+        "ducats": "100",
+        "advicePrice": "52"
+    },
+    "VALKYR PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "7"
+    },
+    "VAUBAN PRIME 头部神经光元": {
+        "ducats": "100",
+        "advicePrice": "37"
+    },
+    "VAUBAN PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "51"
+    },
+    "VAUBAN PRIME 机体": {
+        "ducats": "100",
+        "advicePrice": "38"
+    },
+    "VAUBAN PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "30"
+    },
+    "VOLT PRIME 头部神经光元": {
+        "ducats": "65",
+        "advicePrice": "83"
+    },
+    "VOLT PRIME 系统": {
+        "ducats": "45",
+        "advicePrice": "37"
+    },
+    "VOLT PRIME 机体": {
+        "ducats": "45",
+        "advicePrice": "45"
+    },
+    "VOLT PRIME 蓝图": {
+        "ducats": "25",
+        "advicePrice": "89"
+    },
+    "侍刃 PRIME 握柄": {
+        "ducats": "100",
+        "advicePrice": "66"
+    },
+    "侍刃 PRIME 刀刃": {
+        "ducats": "100",
+        "advicePrice": "49"
+    },
+    "侍刃 PRIME 蓝图": {
+        "ducats": "65",
+        "advicePrice": "16"
+    },
+    "凯旋之爪 PRIME 手套": {
+        "ducats": "100",
+        "advicePrice": "51"
+    },
+    "凯旋之爪 PRIME 爪刃": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "凯旋之爪 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "7"
+    },
+    "分裂斩斧 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "8"
+    },
+    "分裂斩斧 PRIME 刀刃": {
+        "ducats": "100",
+        "advicePrice": "37"
+    },
+    "分裂斩斧 PRIME 握柄": {
+        "ducats": "45",
+        "advicePrice": "9"
+    },
+    "双短柄战镰 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "7"
+    },
+    "双短柄战镰 PRIME 刀刃": {
+        "ducats": "100",
+        "advicePrice": "69"
+    },
+    "双短柄战镰 PRIME 握柄": {
+        "ducats": "45",
+        "advicePrice": "11"
+    },
+    "席瓦 & 神盾 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "席瓦 & 神盾 PRIME 刀刃": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "席瓦 & 神盾 PRIME 护手": {
+        "ducats": "100",
+        "advicePrice": "13"
+    },
+    "席瓦 & 神盾 PRIME 握柄": {
+        "ducats": "15",
+        "advicePrice": "3"
+    },
+    "战刃 PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "55"
+    },
+    "战刃 PRIME 圆盘": {
+        "ducats": "45",
+        "advicePrice": "18"
+    },
+    "战刃 PRIME 刀刃": {
+        "ducats": "45",
+        "advicePrice": "22"
+    },
+    "收割者 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "14"
+    },
+    "收割者 PRIME 刀刃": {
+        "ducats": "45",
+        "advicePrice": "17"
+    },
+    "收割者 PRIME 握柄": {
+        "ducats": "15",
+        "advicePrice": "27"
+    },
+    "欧特鲁斯 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "4"
+    },
+    "欧特鲁斯 PRIME 刀刃": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "欧特鲁斯 PRIME 握柄": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "海波斯库拉对剑 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "海波斯库拉对剑 PRIME 刀刃": {
+        "ducats": "100",
+        "advicePrice": "20"
+    },
+    "海波斯库拉对剑 PRIME 握柄": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "狼牙 PRIME 刀刃": {
+        "ducats": "15",
+        "advicePrice": "4"
+    },
+    "狼牙 PRIME 握柄": {
+        "ducats": "25",
+        "advicePrice": "7"
+    },
+    "狼牙 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "3"
+    },
+    "玻之武杖 PRIME 饰物": {
+        "ducats": "15",
+        "advicePrice": "37"
+    },
+    "玻之武杖 PRIME 握柄": {
+        "ducats": "45",
+        "advicePrice": "31"
+    },
+    "玻之武杖 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "13"
+    },
+    "甲龙双拳 PRIME 刀刃": {
+        "ducats": "65",
+        "advicePrice": "56"
+    },
+    "甲龙双拳 PRIME 拳套": {
+        "ducats": "15",
+        "advicePrice": "13"
+    },
+    "甲龙双拳 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "8"
+    },
+    "科加基 PRIME 拳套": {
+        "ducats": "100",
+        "advicePrice": "13"
+    },
+    "科加基 PRIME 靴子": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "科加基 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "达克拉 PRIME 刀刃": {
+        "ducats": "65",
+        "advicePrice": "10"
+    },
+    "达克拉 PRIME 握柄": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "达克拉 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "迦伦提恩 PRIME 刀刃": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "迦伦提恩 PRIME 握柄": {
+        "ducats": "45",
+        "advicePrice": "7"
+    },
+    "迦伦提恩 PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "32"
+    },
+    "重击巨锤 PRIME 锤头": {
+        "ducats": "15",
+        "advicePrice": "8"
+    },
+    "重击巨锤 PRIME 握柄": {
+        "ducats": "65",
+        "advicePrice": "11"
+    },
+    "重击巨锤 PRIME 蓝图": {
+        "ducats": "65",
+        "advicePrice": "10"
+    },
+    "伯斯顿 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "4"
+    },
+    "伯斯顿 PRIME 枪管": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "伯斯顿 PRIME 枪机": {
+        "ducats": "15",
+        "advicePrice": "3"
+    },
+    "伯斯顿 PRIME 枪托": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "守望者 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "8"
+    },
+    "守望者 PRIME 枪管": {
+        "ducats": "15",
+        "advicePrice": "14"
+    },
+    "守望者 PRIME 枪机": {
+        "ducats": "100",
+        "advicePrice": "65"
+    },
+    "守望者 PRIME 枪托": {
+        "ducats": "65",
+        "advicePrice": "47"
+    },
+    "布莱顿 PRIME 蓝图": {
+        "ducats": "25",
+        "advicePrice": "4"
+    },
+    "布莱顿 PRIME 枪管": {
+        "ducats": "15",
+        "advicePrice": "4"
+    },
+    "布莱顿 PRIME 枪机": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "布莱顿 PRIME 枪托": {
+        "ducats": "15",
+        "advicePrice": "3"
+    },
+    "帕里斯 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "4"
+    },
+    "帕里斯 PRIME 上弓臂": {
+        "ducats": "25",
+        "advicePrice": "4"
+    },
+    "帕里斯 PRIME 下弓臂": {
+        "ducats": "15",
+        "advicePrice": "3"
+    },
+    "帕里斯 PRIME 弓身": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "帕里斯 PRIME 弓弦": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "席芭莉丝 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "4"
+    },
+    "席芭莉丝 PRIME 枪管": {
+        "ducats": "100",
+        "advicePrice": "18"
+    },
+    "席芭莉丝 PRIME 枪机": {
+        "ducats": "45",
+        "advicePrice": "8"
+    },
+    "席芭莉丝 PRIME 枪托": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "拉特昂 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "13"
+    },
+    "拉特昂 PRIME 枪管": {
+        "ducats": "15",
+        "advicePrice": "38"
+    },
+    "拉特昂 PRIME 枪机": {
+        "ducats": "15",
+        "advicePrice": "14"
+    },
+    "拉特昂 PRIME 枪托": {
+        "ducats": "15",
+        "advicePrice": "17"
+    },
+    "月神 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "8"
+    },
+    "月神 PRIME 枪管": {
+        "ducats": "15",
+        "advicePrice": "9"
+    },
+    "月神 PRIME 枪机": {
+        "ducats": "45",
+        "advicePrice": "11"
+    },
+    "月神 PRIME 枪托": {
+        "ducats": "100",
+        "advicePrice": "31"
+    },
+    "猛虎 PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "45"
+    },
+    "猛虎 PRIME 枪管": {
+        "ducats": "45",
+        "advicePrice": "7"
+    },
+    "猛虎 PRIME 枪机": {
+        "ducats": "45",
+        "advicePrice": "9"
+    },
+    "猛虎 PRIME 枪托": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "螺钉步枪 PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "26"
+    },
+    "螺钉步枪 PRIME 枪管": {
+        "ducats": "15",
+        "advicePrice": "15"
+    },
+    "螺钉步枪 PRIME 枪机": {
+        "ducats": "45",
+        "advicePrice": "10"
+    },
+    "螺钉步枪 PRIME 枪托": {
+        "ducats": "15",
+        "advicePrice": "27"
+    },
+    "西诺斯 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "西诺斯 PRIME 上弓臂": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "西诺斯 PRIME 下弓臂": {
+        "ducats": "100",
+        "advicePrice": "18"
+    },
+    "西诺斯 PRIME 弓身": {
+        "ducats": "15",
+        "advicePrice": "13"
+    },
+    "西诺斯 PRIME 弓弦": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "野猪 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "7"
+    },
+    "野猪 PRIME 枪管": {
+        "ducats": "45",
+        "advicePrice": "9"
+    },
+    "野猪 PRIME 枪机": {
+        "ducats": "15",
+        "advicePrice": "9"
+    },
+    "野猪 PRIME 枪托": {
+        "ducats": "100",
+        "advicePrice": "25"
+    },
+    "史提托双枪 PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "18"
+    },
+    "史提托双枪 PRIME 枪管": {
+        "ducats": "45",
+        "advicePrice": "17"
+    },
+    "史提托双枪 PRIME 枪机": {
+        "ducats": "45",
+        "advicePrice": "50"
+    },
+    "史提托双枪 PRIME 连接器": {
+        "ducats": "45",
+        "advicePrice": "11"
+    },
+    "布里斯提卡 PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "12"
+    },
+    "布里斯提卡 PRIME 上弓臂": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "布里斯提卡 PRIME 下弓臂": {
+        "ducats": "15",
+        "advicePrice": "4"
+    },
+    "布里斯提卡 PRIME 枪机": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "布里斯提卡 PRIME 弓弦": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "悦音 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "悦音 PRIME 枪管": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "悦音 PRIME 枪机": {
+        "ducats": "100",
+        "advicePrice": "42"
+    },
+    "旋刃飞刀 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "旋刃飞刀 PRIME 刀刃": {
+        "ducats": "100",
+        "advicePrice": "64"
+    },
+    "旋刃飞刀 PRIME 镖袋": {
+        "ducats": "100",
+        "advicePrice": "34"
+    },
+    "暗杀者 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "18"
+    },
+    "暗杀者 PRIME 枪管": {
+        "ducats": "15",
+        "advicePrice": "20"
+    },
+    "暗杀者 PRIME 枪机": {
+        "ducats": "100",
+        "advicePrice": "58"
+    },
+    "瓦斯托 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "13"
+    },
+    "瓦斯托 PRIME 枪管": {
+        "ducats": "15",
+        "advicePrice": "14"
+    },
+    "瓦斯托 PRIME 枪机": {
+        "ducats": "15",
+        "advicePrice": "11"
+    },
+    "螺钉双枪 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "4"
+    },
+    "螺钉双枪 PRIME 枪管": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "螺钉双枪 PRIME 枪机": {
+        "ducats": "100",
+        "advicePrice": "17"
+    },
+    "螺钉双枪 PRIME 连接器": {
+        "ducats": "45",
+        "advicePrice": "4"
+    },
+    "野马 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "野马 PRIME 枪管": {
+        "ducats": "45",
+        "advicePrice": "7"
+    },
+    "野马 PRIME 枪机": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "野马双枪 PRIME 连接器": {
+        "ducats": "45",
+        "advicePrice": "4"
+    },
+    "野马双枪 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "75"
+    },
+    "雷克斯 PRIME 蓝图": {
+        "ducats": "25",
+        "advicePrice": "4"
+    },
+    "雷克斯 PRIME 枪管": {
+        "ducats": "15",
+        "advicePrice": "3"
+    },
+    "雷克斯 PRIME 枪机": {
+        "ducats": "15",
+        "advicePrice": "10"
+    },
+    "雷克斯双枪 PRIME 连接器": {
+        "ducats": "100",
+        "advicePrice": "64"
+    },
+    "雷克斯双枪 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "17"
+    },
+    "飞扬 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "7"
+    },
+    "飞扬 PRIME 星镖": {
+        "ducats": "15",
+        "advicePrice": "19"
+    },
+    "飞扬 PRIME 镖袋": {
+        "ducats": "15",
+        "advicePrice": "25"
+    },
+    "喀婆萨 PRIME 库狛项圈 蓝图": {
+        "ducats": "45",
+        "advicePrice": "7"
+    },
+    "喀婆萨 PRIME 库狛项圈 项圈带": {
+        "ducats": "45",
+        "advicePrice": "8"
+    },
+    "喀婆萨 PRIME 库狛项圈 项圈扣": {
+        "ducats": "65",
+        "advicePrice": "27"
+    },
+    "搬运者 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "10"
+    },
+    "搬运者 PRIME 头部神经光元": {
+        "ducats": "65",
+        "advicePrice": "93"
+    },
+    "搬运者 PRIME 外壳": {
+        "ducats": "15",
+        "advicePrice": "24"
+    },
+    "搬运者 PRIME 系统": {
+        "ducats": "15",
+        "advicePrice": "9"
+    },
+    "蛟龙 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "10"
+    },
+    "蛟龙 PRIME 头部神经光元": {
+        "ducats": "15",
+        "advicePrice": "41"
+    },
+    "蛟龙 PRIME 外壳": {
+        "ducats": "15",
+        "advicePrice": "29"
+    },
+    "蛟龙 PRIME 系统": {
+        "ducats": "45",
+        "advicePrice": "51"
+    },
+    "赫利俄斯 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "赫利俄斯 PRIME 头部神经光元": {
+        "ducats": "100",
+        "advicePrice": "28"
+    },
+    "赫利俄斯 PRIME 外壳": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "赫利俄斯 PRIME 系统": {
+        "ducats": "45",
+        "advicePrice": "7"
+    },
+    "ODONATA PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "13"
+    },
+    "ODONATA PRIME 机翼": {
+        "ducats": "65",
+        "advicePrice": "49"
+    },
+    "ODONATA PRIME 外甲": {
+        "ducats": "15",
+        "advicePrice": "12"
+    },
+    "ODONATA PRIME 系统": {
+        "ducats": "15",
+        "advicePrice": "8"
+    },
+    "ZEPHYR PRIME 头部神经光元": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "ZEPHYR PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "16"
+    },
+    "ZEPHYR PRIME 机体": {
+        "ducats": "45",
+        "advicePrice": "8"
+    },
+    "ZEPHYR PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "16"
+    },
+    "狂鲨 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "狂鲨 PRIME 枪管": {
+        "ducats": "100",
+        "advicePrice": "15"
+    },
+    "狂鲨 PRIME 枪托": {
+        "ducats": "100",
+        "advicePrice": "14"
+    },
+    "狂鲨 PRIME 枪机": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "皇家拐刃 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "4"
+    },
+    "皇家拐刃 PRIME 握柄": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "皇家拐刃 PRIME 刀刃": {
+        "ducats": "100",
+        "advicePrice": "29"
+    },
+    "LIMBO PRIME 头部神经光元": {
+        "ducats": "100",
+        "advicePrice": "44"
+    },
+    "LIMBO PRIME 系统": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "LIMBO PRIME 机体": {
+        "ducats": "100",
+        "advicePrice": "26"
+    },
+    "LIMBO PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "食人鱼 PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "14"
+    },
+    "食人鱼 PRIME 枪管": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "食人鱼 PRIME 枪机": {
+        "ducats": "45",
+        "advicePrice": "6"
+    },
+    "技巧之剑 PRIME 刀刃": {
+        "ducats": "100",
+        "advicePrice": "15"
+    },
+    "技巧之剑 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "技巧之剑 PRIME 握柄": {
+        "ducats": "15",
+        "advicePrice": "9"
+    },
+    "CHROMA PRIME 机体": {
+        "ducats": "45",
+        "advicePrice": "10"
+    },
+    "CHROMA PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "10"
+    },
+    "CHROMA PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "64"
+    },
+    "CHROMA PRIME 头部神经光元": {
+        "ducats": "100",
+        "advicePrice": "17"
+    },
+    "格拉姆 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "10"
+    },
+    "格拉姆 PRIME 刀刃": {
+        "ducats": "15",
+        "advicePrice": "7"
+    },
+    "格拉姆 PRIME 握柄": {
+        "ducats": "100",
+        "advicePrice": "16"
+    },
+    "绝路 PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "31"
+    },
+    "绝路 PRIME 枪管": {
+        "ducats": "45",
+        "advicePrice": "9"
+    },
+    "绝路 PRIME 枪机": {
+        "ducats": "15",
+        "advicePrice": "5"
+    },
+    "绝路 PRIME 枪托": {
+        "ducats": "45",
+        "advicePrice": "5"
+    },
+    "瓦斯托双枪 PRIME 蓝图": {
+        "ducats": "100",
+        "advicePrice": "25"
+    },
+    "瓦斯托双枪 PRIME 连接器": {
+        "ducats": "45",
+        "advicePrice": "10"
+    },
+    "觉醒双枪 PRIME 枪管": {
+        "ducats": "100",
+        "advicePrice": "42"
+    },
+    "觉醒双枪 PRIME 蓝图": {
+        "ducats": "15",
+        "advicePrice": "6"
+    },
+    "觉醒双枪 PRIME 枪机": {
+        "ducats": "45",
+        "advicePrice": "41"
+    },
+    "觉醒双枪 PRIME 连接器": {
+        "ducats": "45",
+        "advicePrice": "10"
+    },
+    "救赎者 PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "8"
+    },
+    "MESA PRIME 蓝图": {
+        "ducats": "45",
+        "advicePrice": "16"
+    },
+    "MESA PRIME 头部神经光元": {
+        "ducats": "100",
+        "advicePrice": "31"
+    },
+    "MESA PRIME 机体": {
+        "ducats": "15",
+        "advicePrice": "42"
+    },
+    "MESA PRIME 系统": {
+        "ducats": "100",
+        "advicePrice": "40"
+    },
+    "救赎者 PRIME 刀刃": {
+        "ducats": "15",
+        "advicePrice": "12"
+    },
+    "救赎者 PRIME 握柄": {
+        "ducats": "100",
+        "advicePrice": "50"
+    }
+}

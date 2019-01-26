@@ -1,7 +1,12 @@
 from tkinter import *
+import threading,time
 
 def popwindow(dic):
     root = Tk()
+
+    def auto_destory():
+        time.sleep(10)
+        root.destroy()
 
     root.overrideredirect(True)
     root.attributes('-alpha',0.8)
@@ -50,5 +55,7 @@ def popwindow(dic):
 
         box_coordinate[0] += box_width
         box_coordinate[0] += gap_width
-        
+		
+    t = threading.Thread(target=auto_destory)
+    t.start()
     mainloop()

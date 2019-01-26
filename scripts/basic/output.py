@@ -1,20 +1,10 @@
 import json,threading
 import config,search
 
-fil = open(config.json_path +'\\Dic.json', 'r', encoding='utf-8')
+fil = open(config.json_path +'\\local_sales.json', 'r', encoding='utf-8')
 tab = json.loads(fil.read())
+fil.close()
 info = []
-
-def vaild_print(name,query): #有效情况下
-    #print(name + 'Begin')
-    global info
-    new_dict = search.search_in_wm(query)
-    new_dict['ducats'] = str(new_dict['ducats'])
-    new_dict['advicePrice'] = str(new_dict['advicePrice'])
-    new_dict['name'] = name
-    new_dict['valid'] = True
-    info.append(new_dict)
-    #print(name + 'Ready')
 
 def invalid_print(name): #无效情况下
     #print(name + 'Begin')
@@ -26,8 +16,8 @@ def invalid_print(name): #无效情况下
     new_dict['valid'] = False
     info.append(new_dict)
     #print(name + 'Ready')
-    
-    
+
+''' 多线程版
 def get_info(search_list):
     threadlist = [] #线程列表
     for item in search_list:
@@ -41,4 +31,15 @@ def get_info(search_list):
     for t in threadlist:
         t.join()
     return info #返回价格信息列表
-
+'''
+def get_info(search_list):
+    for item in search_list:
+        if item in tab:
+            item_info = tab[item]
+            item_info['name'] = item
+            item_info['valid'] = True
+            info.append(item_info)
+        else:
+            invalid_print(item)
+    return info #返回价格信息列表
+    
