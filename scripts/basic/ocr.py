@@ -19,6 +19,7 @@ def ocr(img_location):
         texts.append(k.get('words'))
         """ To modify the texts in due form """
     def edit(text): #进行格式修改
+        text = text.replace('t','')
         text = text.replace(' ','')
         if 'prme' in text.lower():
             idx = text.lower().index('prme')
@@ -32,7 +33,7 @@ def ocr(img_location):
         return(text)
     result = []
     for text in texts:
-        if 'FORMA' in text:continue
+        if 'forma' in text.lower():continue
         result.append(edit(text))
     return result
 
