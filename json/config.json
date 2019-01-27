@@ -1,2 +1,7 @@
 {
+	"steam_screenshot_dir" : "YOUR STEAM_SCREENSHOT_DIR",
+    "example_steam_screenshot_dir" : "C:/Program Files (x86)/Steam/userdata/186550984/760/remote/230410/screenshots",
+	
+	"python_path" : "YOUR PYTHON_PATH",
+	"example_python_path" : "C:/Users/zhuxi/Anaconda3/envs/desk"
 }

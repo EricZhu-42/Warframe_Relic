@@ -1,5 +1,6 @@
 '用于生成本地的价格字典'
 import sys,os,json,threading
+import multiprocessing
 currentpath = sys.path[0]
 basic_path = currentpath + "\\basic"
 sys.path.append(basic_path)
@@ -18,22 +19,22 @@ def valid_print(name,query): #有效情况下
     item_dict = search.search_in_wm(query)
     item_dict['ducats'] = str(item_dict['ducats'])
     item_dict['advicePrice'] = str(item_dict['advicePrice'])
-    sales[name]=item_dict
+    return (name,item_dict)
+
+def add_to_sales(tulp):
+    sales[tulp[0]]=tulp[1]
+    global count 
     count += 1
     print(str(count) + ' of ' + str(length))
-'''
-threadlist = []
-for key in relic_dic:
-    t = threading.Thread(target=valid_print, args=(key,relic_dic[key],))
-    threadlist.append(t)
-for t in threadlist:
-    t.start()
-for t in threadlist:
-    t.join()
-'''
 
-for key in relic_dic:
-    valid_print(key,relic_dic[key])
+if __name__ == '__main__':
+    p = multiprocessing.Pool(processes=4)
+    for key in relic_dic:
+        p.apply_async(valid_print, args=(key,relic_dic[key]),callback=add_to_sales)
+    print('waiting')
+    p.close()
+    p.join()
+    print('DONE')
 
 with open(config.json_path + '\\local_sales.json','w+',encoding='utf-8') as local_sales_file:
     local_sales_file.write(json.dumps(sales,indent=4,ensure_ascii=False))
