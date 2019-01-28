@@ -1,14 +1,26 @@
-'用于生成本地的价格字典'
-import sys,os,json,threading
-import multiprocessing
+"用于创建规定格式的查询表json文件"
+
+import sys,os,multiprocessing,json
 currentpath = sys.path[0]
 basic_path = currentpath + "\\basic"
 sys.path.append(basic_path)
 
-import config,search
+import config, search
+import  requests 
 
-with open(config.json_path + '\\relic_dic.json','r',encoding='utf-8') as relic_dic_file:
-    relic_dic = json.loads(relic_dic_file.read())
+url = 'https://raw.githubusercontent.com/Richasy/WFA_Lexicon/master/WF_Sale.json'
+r = requests.get(url) #获取最新Sales词库
+
+full_dic = {}
+for item in r.json():
+    va = item['search']
+    ke = item['zh']
+    full_dic[ke]=va
+
+relic_dic = {}
+for key in full_dic:
+    if ('PRIME' in key) and not ('一套' in key) and not ('primed' in full_dic[key]):
+        relic_dic[key] = full_dic[key]
 
 sales = {}
 count = 0
@@ -28,6 +40,7 @@ def add_to_sales(tulp):
     print(str(count) + ' of ' + str(length))
 
 if __name__ == '__main__':
+    print(str(count) + ' of ' + str(length))
     p = multiprocessing.Pool(processes=4)
     for key in relic_dic:
         p.apply_async(valid_print, args=(key,relic_dic[key]),callback=add_to_sales)
@@ -38,3 +51,4 @@ if __name__ == '__main__':
 
 with open(config.json_path + '\\local_sales.json','w+',encoding='utf-8') as local_sales_file:
     local_sales_file.write(json.dumps(sales,indent=4,ensure_ascii=False))
+

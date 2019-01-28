@@ -14,7 +14,7 @@ def popwindow(dic):
     root.geometry(str(root_width)+'x'+str(root_height)+'+'+str(root_x)+'+'+str(root_y)) #主窗口参数
 
     global closetime
-    closetime = 10 #关闭时间，单位：秒
+    closetime = config.get_config("disappear_time") #关闭时间，单位：秒
 
     def autoClose():
         for i in range(closetime):
