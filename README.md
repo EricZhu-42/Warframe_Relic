@@ -47,7 +47,7 @@ v1.6.0 增加了推荐选择物品功能
 v1.7.0 适应性优化，创建价格表时采用多进程，提高了效率
 
 ## 联系方式
-邮箱：zhuxinhao00@gmail.com
+邮箱：zhuxinhao00@gmail.com; hantjscnxp@outlook.com
  
 ## 版权信息
  1. [物品字典来源](https://github.com/Richasy/WFA_Lexicon)
