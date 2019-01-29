@@ -21,6 +21,7 @@ def ocr(img_location):
     def edit(text): #进行格式修改
         text = text.replace('t','')
         text = text.replace(' ','')
+        text = text.upper()
         if 'prme' in text.lower():
             idx = text.lower().index('prme')
             text = text[:idx]+'PRIME'+text[idx+4:]
