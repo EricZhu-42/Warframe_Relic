@@ -28,7 +28,7 @@
 推荐：使用`Warframe_Relic_AHK.zip`中的`Edit_config.exe`快速配置
 2. 编辑`scripts\basic\ocr.py`与`scripts\basic\search.py`，填入授权令牌  
 （关于获取授权，请参照：[ocr.py部分](http://ai.baidu.com/tech/ocr/general)与[search.py部分](https://blog.richasy.cn/document/wfa/api/how_to_apply.html)）
-3. 运行Sales_create.py`，生成本地价格字典`local_sales.json`
+3. 运行`Sales_create.py`，生成本地价格字典`local_sales.json`
 4. 运行`scripts\Warframe_Relic.py`  
 推荐：使用`Warframe_Relic_AHK.zip`中的`Warframe_Relic.exe`快速启动
 
