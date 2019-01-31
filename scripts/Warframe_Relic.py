@@ -30,7 +30,7 @@ def main():
     info = output.get_info(items) #获得价格列表
     #print_time('Get_info')
 
-    out_GUI.popwindow(info)
+    out_GUI.popwindow(info) #输出到窗口中
     #print_time('Pop GUI')
 
     #sentence = get_sentence(info) #获得编辑后的价格字符串
