@@ -1,5 +1,5 @@
 from tkinter import *
-import time, threading
+import time, threading, config
 
 def popwindow(dic):
     root = Tk()
@@ -14,7 +14,7 @@ def popwindow(dic):
     root.geometry(str(root_width)+'x'+str(root_height)+'+'+str(root_x)+'+'+str(root_y)) #主窗口参数
 
     global closetime
-    closetime = config.get_config("disappear_time") #关闭时间，单位：秒
+    closetime = int(config.get_config("disappear_time")) #关闭时间，单位：秒
 
     def autoClose():
         for i in range(closetime):
@@ -75,8 +75,8 @@ def popwindow(dic):
             lb_x = int(0.075*box_width)+box_coordinate[0]
             lb_y = int((0.125+0.3125*j)*box_height)+box_coordinate[1] 
             if j==0 : word, ft = item['name'], item_ft
-            if j==1 : word, ft = item['advicePrice']+' 白金', price_ft
-            if j==2 : word, ft = item['ducats']+' 奸商币', price_ft
+            if j==1 : word, ft = str(item['advicePrice'])+' 白金', price_ft
+            if j==2 : word, ft = str(item['ducats'])+' 奸商币', price_ft
             
             lb[i][j] = Label(root, text = word, bg=label_color, font=ft, foreground=text_color)
             lb[i][j].place(x=lb_x, y=lb_y, anchor=NW)

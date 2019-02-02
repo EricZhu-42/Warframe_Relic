@@ -1,9 +1,9 @@
 from aip import AipOcr
 
 """ APPID AK SK """
-APP_ID = YOUR APP_ID
-API_KEY = YOUR API_KEY
-SECRET_KEY = YOUR SECRET_KET
+APP_ID = 'YOUR APP_ID'
+API_KEY = 'YOUR API_KEY'
+SECRET_KEY = 'YOUR SECRET_KEY'
 
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY) #创建OCR实例
 
@@ -34,9 +34,6 @@ def ocr(img_location):
         return(text)
     result = []
     for text in texts:
-        if 'forma' in text.lower():continue
+        #if 'forma' in text.lower():continue
         result.append(edit(text))
     return result
-
-
-

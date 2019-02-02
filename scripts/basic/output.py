@@ -1,42 +1,41 @@
 import json,threading
 import config,search
+from fuzzywuzzy import process
+
 
 fil = open(config.json_path +'\\local_sales.json', 'r', encoding='utf-8')
 tab = json.loads(fil.read())
+choices = [item for item in tab]
+
 fil.close()
 info = []
+
+def regularize(search_list):
+    for i in range(len(search_list)):
+        search_list[i] = process.extractOne(search_list[i],choices)[0]
+    return(search_list)
 
 def invalid_print(name): #无效情况下
     #print(name + 'Begin')
     global info
     new_dict = {}
-    new_dict['ducats'] = '0'
-    new_dict['advicePrice'] = '0'
+    new_dict['ducats'] = 0
+    new_dict['advicePrice'] = 0
     new_dict['name'] = name
     new_dict['valid'] = False
     info.append(new_dict)
     #print(name + 'Ready')
 
-''' 多线程版
-def get_info(search_list):
-    threadlist = [] #线程列表
-    for item in search_list:
-        if item in tab:
-            t = threading.Thread(target = vaild_print, args = (item,tab[item],))
-        else:
-            t = threading.Thread(target = invalid_print, args = (item,))
-        threadlist.append(t)
-    for t in threadlist:
-        t.start()
-    for t in threadlist:
-        t.join()
-    return info #返回价格信息列表
-'''
+test_list = ['雷克斯 PRIME 枪管', 'SLIMBO PRIME 系统', 'OBERON PRIME 蓝图','螺钉双枪 PRIME 枪管']
 
 def get_info(search_list):
+    #print(search_list)
+    search_list = regularize(search_list)
     for item in search_list:
         if item in tab:
-            item_info = tab[item]
+            item_info = {}
+            item_info['ducats'] = eval(tab[item]['ducats'])
+            item_info['advicePrice'] = eval(tab[item]['advicePrice'])
             item_info['name'] = item
             item_info['valid'] = True
             info.append(item_info)
@@ -44,16 +43,16 @@ def get_info(search_list):
             invalid_print(item)
 
     def make_recommend(info):
-        max_price = 0
-        for item_info in info:
-            if int(item_info['advicePrice']) > max_price:
-                max_price = int(item_info['advicePrice'])
-        for item_info in info:
-            if int(item_info['advicePrice']) == max_price:
-                item_info['recommend'] = True
+        recommend_list = sorted(info, reverse = True, key = lambda x:(x['advicePrice'],x['ducats']))
+        recommend_name = recommend_list[0]['name']
+        for item in info:
+            if item['name']==recommend_name:
+                item['recommend'] = True
             else:
-                item_info['recommend'] = False
+                item['recommend'] = False
 
     make_recommend(info)
     return info #返回价格信息列表
     
+if __name__ == '__main__':
+    print(get_info(test_list))

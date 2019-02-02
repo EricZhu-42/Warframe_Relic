@@ -18,11 +18,15 @@ for item in r.json():
     full_dic[ke]=va
 
 relic_dic = {}
-for key in full_dic: #创建遗物字典
+for key in full_dic:
     if ('PRIME' in key) and not ('一套' in key) and not ('primed' in full_dic[key]):
         relic_dic[key] = full_dic[key]
 
-sales = {}
+sales = {
+    "FORMA 蓝图":{
+        "ducats":"0",
+        "advicePrice": "10"}
+        }
 count = 0
 length = len(relic_dic)
 
@@ -39,9 +43,9 @@ def add_to_sales(tulp):
     count += 1
     print(str(count) + ' of ' + str(length))
 
-if __name__ == '__main__': #创建价格字典
+if __name__ == '__main__':
     print(str(count) + ' of ' + str(length))
-    p = multiprocessing.Pool(processes=4)
+    p = multiprocessing.Pool(processes=8)
     for key in relic_dic:
         p.apply_async(valid_print, args=(key,relic_dic[key]),callback=add_to_sales)
     print('waiting')
@@ -49,7 +53,6 @@ if __name__ == '__main__': #创建价格字典
     p.join()
     print('DONE')
 
-#保存到文件
 with open(config.json_path + '\\local_sales.json','w+',encoding='utf-8') as local_sales_file:
     local_sales_file.write(json.dumps(sales,indent=4,ensure_ascii=False))
 
