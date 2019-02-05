@@ -1,8 +1,8 @@
 # Warframe_Relic
 该程序旨在快速查询Warframe游戏中打开遗物后获得的物品价值，辅助玩家进行奖励选择。
->当前版本：v2.0.0 
+>当前版本：v2.0.0  
 更新时间：2019-02-05    
-基于服务器运行的版本已经基本编写完毕，预计近期进行小范围测试
+基于服务器+客户端运行的版本已经基本编写完毕，预计近期进行小范围测试
 
 ## 开发环境：
 1. Python版本：3.72
@@ -10,27 +10,34 @@
 
 ## 项目结构介绍
 ### \scripts
-&emsp;该文件夹存放所有的脚本文件。其中`scripts`中为所有可以直接运行的脚本（程序入口），`scripts\basic`中为所有模块。
+&emsp;该文件夹存放所有的Python脚本文件。其中 `scripts` 中为所有可以直接运行的脚本（程序入口）， `scripts\basic` 中为所有模块。
+
+### \ahk
+&emsp;该文件夹存放了所有的AutoHotkey脚本文件。其中 `ahk\lib` 存放了需求的第三方脚本。
 ### \json
 &emsp;该文件夹存放所有的数据文件，其中包括:  
 1. `config.json` 用户自定义的配置文件
 2. `full_dic.json` 完整的中文名-WM查询名称字典
 3. `relic_dic.json` 遗物奖励列表字典
 4. `local_sales.json` 遗物奖励价格列表  
-*注：以上`full_dic.json`与`relic_dic.json`为供参考使用的历史版本文件，不会在当前版本脚本运行时产生*
+*注：以上` full_dic.json` 与 `relic_dic.json` 为供参考使用的历史版本文件，不会在当前版本脚本运行时产生。*
 ### \sampleRaw
-&emsp;该文件夹存放了部分样例截图，可作为测试用例
-### Others  
-1. `Warframe_Relic_AHK.zip` 基于AutoHotkey编写的快速配置与运行脚本，可选择使用
+&emsp;该文件夹存放了部分样例截图，可作为测试用例。
+### \client
+&emsp;该文件夹存放了封装后的各版本客户端(ZIP格式)，可在不安装python环境的情况下直接使用。
+
 
 ## 使用方法
-1. 编辑 `json\config.json` ，设置Python路径与Steam截图路径  
-推荐：使用`Warframe_Relic_AHK.zip`中的`Edit_config.exe`快速配置
-2. 编辑`scripts\basic\ocr.py`与`scripts\basic\search.py`，填入授权令牌  
-（关于获取授权，请参照：[ocr.py部分](http://ai.baidu.com/tech/ocr/general)与[search.py部分](https://blog.richasy.cn/document/wfa/api/how_to_apply.html)）
-3. 运行`Sales_create.py`，生成本地价格字典`local_sales.json`
-4. 运行`scripts\Warframe_Relic.py`  
-推荐：使用`Warframe_Relic_AHK.zip`中的`Warframe_Relic.exe`快速启动
+1. 获取[最新的客户端程序](www.baidu.com)并解压。
+2. 运行根目录下的 `Edit_config.exe` ，选择Steam截图文件夹 (一般为 `...\Steam\userdata\...\760\remote\...\screenshots` ) ，并填写窗口消失时间（单位为秒，默认为10）。
+3. 运行 `Launch.exe` ，桌面任务栏中将出现程序的图标，并在后台开始运行。
+4. 在遗物奖励选择界面，按下组合键 `Ctrl+G` ，将触发Steam的截图动作，数秒后各奖励的信息将在屏幕左上角显示，并用深底色突出推荐选择的奖励。  
+
+## Q & A
+1. Q：为什么按下组合键后没有触发截图动作？  
+A：请保证Steam截图快捷键为默认设置 (F12)。
+2. Q ：为什么按下组合键后，触发了截图动作，但左上角一直没有窗口弹出？  
+A：请切换游戏为"无边框窗口化"或"窗口化"模式。
 
 ## 作者列表
 [Null_42](https://github.com/EricZhu-42) 与 [Xp-from-speit2018](https://github.com/Xp-from-speit2018)
@@ -64,6 +71,6 @@
  1. [物品字典来源](https://github.com/Richasy/WFA_Lexicon)
  2. [OCR部分使用的API](https://ai.baidu.com)
  3. [WM价格查询API](http://wfa.richasy.cn)
- 4. [JSON.ahk来源](https://github.com/cocobelgica/AutoHotkey-JSON)  
+ 4. [JSON.ahk](https://github.com/cocobelgica/AutoHotkey-JSON)  
  
  感谢[Richasy](https://github.com/Richasy)对本项目开发的支持！
