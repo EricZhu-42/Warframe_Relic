@@ -87,7 +87,54 @@ def popwindow(dic):
     t = threading.Thread(target=autoClose)
     t.start()
     root.mainloop()
-    
+
+def popgg():
+    root = Tk()
+    screen_width = root.winfo_screenmmwidth()
+    screen_height = root.winfo_screenheight() #获取当前显示器分辨率    
+    root.overrideredirect(True)
+    root.wm_attributes('-topmost',1) #置顶
+    root.attributes('-alpha',0.8)
+    root_width, root_height = 200, 150 #窗口大小
+    global root_x, root_y #必须声明位置是全局变量
+    root_x = (screen_width-root_width)//2
+    root_y = (screen_height-root_height)//2
+    #root_x, root_y = 10, 10 #初始窗口位置
+    root.geometry(str(root_width)+'x'+str(root_height)+'+'+str(root_x)+'+'+str(root_y)) #主窗口参数
+
+    global closetime
+    closetime = int(config.get_config("disappear_time")) #关闭时间，单位：秒
+
+    def autoClose():
+        for i in range(closetime):
+            clock = Label(root, text=str(closetime-i), font=('Microsoft YaHei',12))
+            clock.place(x=10, y=5)
+            time.sleep(1)    
+            clock.destroy()       
+        #root.destroy() #Don't use this!
+        root.quit()
+
+    def click(event):
+        global mouse_x, mouse_y
+        mouse_x, mouse_y = event.x, event.y
+    def release(event):
+        global mouse_x, mouse_y
+        global root_x, root_y
+        root_x += event.x-mouse_x
+        root_y += event.y-mouse_y
+        root.geometry(str(root_width)+'x'+str(root_height)+'+'+str(root_x)+'+'+str(root_y))
+    root.bind('<Button-1>',click)
+    root.bind('<ButtonRelease-1>',release)#拖动功能
+
+    img_open = Image.open('gg.jpg')
+    img_jpg = ImageTk.PhotoImage(img_open)
+    label_img = Label(root, image = img_jpg)
+    label_img.pack() #添加显示图片的Label
+
+    t = threading.Thread(target=autoClose)
+    t.start()
+    root.mainloop()
+
 test = False #测试用
 
 if test:
