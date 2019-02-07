@@ -28,7 +28,7 @@
 
 
 ## 使用方法
-1. 获取[最新的客户端程序](www.baidu.com)并解压。
+1. 获取[最新的客户端程序](http://47.102.125.24/downloads/Warframe_Relic_client_v2.1.0.zip)并解压。
 2. 运行根目录下的 `Edit_config.exe` ，选择Steam截图文件夹 (一般为 `...\Steam\userdata\...\760\remote\...\screenshots` ) ，并填写窗口消失时间（单位为秒，默认为10）。
 3. 运行 `Launch.exe` ，桌面任务栏中将出现程序的图标，并在后台开始运行。
 4. 在遗物奖励选择界面，按下组合键 `Ctrl+G` ，将触发Steam的截图动作，数秒后各奖励的信息将在屏幕左上角显示，并用深底色突出推荐选择的奖励。  
