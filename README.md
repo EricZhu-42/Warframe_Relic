@@ -28,6 +28,7 @@
 
 
 ## 使用方法
+0. 请确保使用的是Steam版Warframe中文界面，Steam截图按键为F12。
 1. 获取[最新的客户端程序](http://47.102.125.24/downloads/Warframe_Relic_client_v2.1.1.zip)并解压。
 2. 运行根目录下的 `Edit_config.exe` ，选择Steam截图文件夹 (一般为 `...\Steam\userdata\...\760\remote\...\screenshots` ) ，并填写窗口消失时间（单位为秒，默认为10）。
 3. 运行 `Launcher.exe` ，桌面任务栏中将出现程序的图标，并在后台开始运行。
