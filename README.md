@@ -10,21 +10,21 @@
 2. 需求的第三方库：Requests, pywin32, pillow, baidu_aip, fuzzywuzzy
 
 ## 项目结构介绍
-### scripts\
+### scripts/
 &emsp;该文件夹存放所有的Python脚本文件。其中 `scripts` 中为所有可以直接运行的脚本（程序入口）， `scripts\basic` 中为所有模块。
 
-### ahk\
+### ahk/
 &emsp;该文件夹存放了所有的AutoHotkey脚本文件。其中 `ahk\lib` 存放了需求的第三方脚本。
-### json\
+### json/
 &emsp;该文件夹存放所有的数据文件，其中包括:  
 1. `config.json` 用户自定义的配置文件
 2. `full_dic.json` 完整的中文名-WM查询名称字典
 3. `relic_dic.json` 遗物奖励列表字典
 4. `local_sales.json` 遗物奖励价格列表  
 *注：以上` full_dic.json` 与 `relic_dic.json` 为供参考使用的历史版本文件，不会在当前版本脚本运行时产生。*
-### sampleRaw\
+### sampleRaw/
 &emsp;该文件夹存放了部分样例截图，可作为测试用例。
-### client\
+### client/
 &emsp;该文件夹存放了封装后的各版本客户端(ZIP格式)，可在不安装python环境的情况下直接使用。
 
 
